@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+a{
+  text-decoration: none;
+}
+
+
+.sort_selected::after {
+  content: '\2714'; /* Ký tự Unicode cho dấu check */
+  font-family: sans-serif; /* Sử dụng font bạn đang dùng */
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+  color: red;
+}
+.dropdown-menu a:hover {
+  color: black; 
+  cursor: pointer; 
+}
+
